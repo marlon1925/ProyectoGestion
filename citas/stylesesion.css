@@ -1,0 +1,124 @@
+h2{
+    margin: 0;
+    color: aliceblue;
+    align-items:center;
+    text-align:right;
+    height: 100px;
+    font-size: 150%;
+    padding-right: 2%;
+    
+}
+header{
+margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.datos
+{ background-color: rgb(42, 78, 110);
+
+    color: aliceblue;
+    font-size: 150%;
+    padding-left: 35%;
+
+}.datos1
+{
+    background-color: rgb(149, 171, 243);
+    margin-top: -25px;
+    color: aliceblue;
+    font-size: 150%;
+    padding-left: 35%;
+
+}
+img{
+    box-align:left;
+    border-radius: 100%;
+    position: relative;
+    margin-top: -300px;
+    width: 20%;
+}
+main{
+    
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+button
+{position: relative;
+    background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    font-size: 200%;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ventana
+    {
+        margin: 0;
+      background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+
+      align-items: center;
+      width: 40%;
+      color:rgb(239, 231, 231);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 200%;
+      text-align: center;
+      text-decoration: none;
+      padding: 33px;
+      min-height: 50px;
+      border-radius: 20px;
+      position: absolute;
+      left: 34%;
+      top: 35%;
+      display: none;
+    
+    }
+    
+    
+    .cerrar {
+      float: right;
+      color: #eae1e1;
+      line-height: 17px;
+      text-decoration: none;
+      padding: 0px 14px;
+      font-family: Arial;
+      border-radius: 100px;
+      border-color: #eae1e1;
+      box-shadow: white;
+      font-size: 18px;
+      }
+      #ventana .cerrar:hover {
+      background: #ff6868;
+      color: white;
+      text-decoration: none;
+      text-shadow: -1px -1px red;
+      border-bottom: 1px solid red;
+      border-left: 1px solid red;
+      }
+      .cambiado, .cancelar
+      
+      {
+         margin-top: 10%;
+        background: rgb(42, 94, 140);
+        color: black;
+        align-items: left;
+        text-align: left;
+        border-radius: 10px;
+        border-color: lightblue;
+        margin-inline: 5px;
+        width: 10%;
+        font-size: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .cambios
+       {
+        background-color: #8bdbfb;
+        width: 90%;
+        align-items: left;
+        color: black;
+       }

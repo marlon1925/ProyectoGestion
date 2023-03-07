@@ -1,0 +1,133 @@
+body {
+  
+    background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+    
+  }
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+    background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+    border-radius: 10px;
+    border-color: lightblue;
+    margin-inline: 5px;
+    width: 100px;
+    color: aliceblue;
+}
+  .cabecera
+  {width: 100%;
+    color: antiquewhite;
+    text-align: center;
+ 
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .imagenc{
+    width: 10%;
+    height: 10%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+
+}
+main
+{
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 5%;
+
+}
+.formulario
+{
+margin-top: 0.9%;
+padding-left: 2%;
+
+}
+.for{
+  background-color: black;
+  padding-right: 3%;
+}
+
+.cajita
+{margin: 0px auto;
+  background-color: rgb(249, 249, 248);
+  width: 600px;
+  text-align: center;
+  align-items: center;
+
+  border-radius: 20px;
+}
+label{border-radius: 10%;
+}
+
+.registropa{
+  background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+  border-radius: 10px;
+  border-color: lightblue;
+  margin-inline: 5px;
+  width: 40%;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ventana
+{
+  background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+    margin: 0;
+  width: 30%;
+  color:rgb(239, 231, 231);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: none;
+  padding: 33px;
+  min-height: 250px;
+  border-radius: 20px;
+  position: absolute;
+  left: 34%;
+  top: 35%;
+  display: none;
+  align-items: center;
+
+}
+.imagenv{
+  width: 30%;
+  height: 30%;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.cerrar {
+  float: right;
+  color: #eae1e1;
+  line-height: 17px;
+  text-decoration: none;
+  padding: 0px 14px;
+  font-family: Arial;
+  border-radius: 100px;
+  border-color: #eae1e1;
+  box-shadow: white;
+  font-size: 18px;
+  }
+  #ventana .cerrar:hover {
+  background: #ff6868;
+  color: white;
+  text-decoration: none;
+  text-shadow: -1px -1px red;
+  border-bottom: 1px solid red;
+  border-left: 1px solid red;
+  }
+  .iniciopa,.home
+  
+  {
+     margin-top: 10%;
+    background: aliceblue;
+    color: black;
+    border-radius: 10px;
+    border-color: lightblue;
+    margin-inline: 5px;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }

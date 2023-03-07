@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registro</title>
+  <link href="/citas/stylerp.css" rel="stylesheet" type="text/css" />
+  <script src="/citas/registro.js"></script>
+</head>
+
+<body>
+  <header> 
+    <div class="cabecera">
+    <div class="elementosc"> 
+ <h1>Medical Hope</h1> 
+ </div> 
+ <div class="elementosc"> 
+ <img class="imagenc" src="/img/buho3.jpg"> 
+    </div> </div>
+       </header>
+    </div>
+
+    <main> 
+      <div class="cajita"><h1>Registro Medicos</h1>
+      <div class="espacio"><p></p></div>
+      
+    <div class="formulario">
+      <label for="nombre">
+         <input type="text" id="nombre" name="nombre" placeholder="Nombres" required autocomplete="name"/>
+      </label>
+      <label for="apellido">
+         <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required autocomplete="apellido"/>
+      </label> 
+   </div></br>
+   
+   <div class="formulario">
+      <label for="cedulap">
+         <input type="text" id="cedulap" name="cedulap" placeholder="Cedula" required autocomplete="cedula"/>
+     
+      </label>
+      <label for="correop">
+         <input type="text" id="correop" name="correop" placeholder="Correo" required autocomplete="correo"/>
+      </label>  
+   </div></br>
+   <div class="formulario">
+      <label for="celular">
+         <input type="celular" id="celularp" name="celularp" placeholder="Ingrese se celular" required autocomplete="clavep"/>
+      
+      
+         <label for="lang">      Sexo</label>
+         <select name="Sexo" id="lang">
+           <option value="Femenino">Femenino</option>
+           <option value="Masculino">Masculino</option>
+         </select>
+         <label for="lang">      Especialidad</label>
+         <select name="Especialidad" id="lang">
+           <option value="General">Medicina General</option>
+           <option value="Dentista">Dentista</option>
+         </select>
+   </form> </label>  
+   </div></br>
+   <label>fecha de nacimiento: </label>
+      <input type="date"/>
+   
+   <div class="formulario">
+      <label for="clave">
+         <input type="password" id="clavep" name="clavep" placeholder="Ingrese una clave" required autocomplete="clavep"/>
+      </label>
+      <label for="clave">
+         <input type="password" id="clavep" name="clavep" placeholder="Repita una clave" required autocomplete="clavep"/>
+      </label>
+   </div></br>
+   <div class="registro">
+      <button  class="registropa" type="submit" name="bregistro">
+        
+
+         <a href="javascript:abrir()">REGISTRO</a> 
+      </div>
+        
+      </br>
+      </input>
+  </div>
+</div>
+</div> 
+
+</div> 
+  <div class="ventana" id="vregistro">
+   <div class="cerrar"><a href="javascript:cerrar()"><div>X</div></a> </div> 
+   
+   Registro Exitoso
+   <img class="imagenv" src="/img/visto.png">
+   <div class="inicio">
+      <button class="iniciopa" name="inicio">
+         <a href="/citas/iniciomedicos.html">Iniciar Sesión</a> 
+      
+      <button class="home" name="home">
+         <a href="/inicio.html">Inicio</a> 
+      </div>
+    </div>
+ </main>
+
+</body>
+
+</html>
